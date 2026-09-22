@@ -38,23 +38,6 @@ Connected peers receive real-time updates and evaluate bidding interest with a 6
 - User.java: Models account data, trading statistics, seller/buyer counters, and reputation values.
 - Peer.java: Client-side driver running TCP control connections alongside an integrated UDP server/client implementing the Go-Back-N protocol.
 
-## Compilation and Running
-
-Requirements:
-JDK 8 or later.
-
-Compilation:
-Open a terminal in the project directory:
-javac *.java
-
-Start the Server:
-java AuctionServer
-
-Start Peer Instances:
-Open one or more separate terminal windows and run:
-java Peer
-
-Upon logging in, each peer automatically initializes a dedicated directory named Peer_[username] in the execution directory to store local auction items and received files.
 
 Academic Context
 Developed as a group project, coursework for the "Computer Networking" course, Academic Year 2025-26.
