@@ -39,5 +39,5 @@ Connected peers receive real-time updates and evaluate bidding interest with a 6
 - Peer.java: Client-side driver running TCP control connections alongside an integrated UDP server/client implementing the Go-Back-N protocol.
 
 
-Academic Context
+## Academic Context
 Developed as a group project, coursework for the "Computer Networking" course, Academic Year 2025-26.
