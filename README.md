@@ -55,3 +55,6 @@ Open one or more separate terminal windows and run:
 java Peer
 
 Upon logging in, each peer automatically initializes a dedicated directory named Peer_[username] in the execution directory to store local auction items and received files.
+
+Academic Context
+Developed as a group project, coursework for the "Computer Networking" course, Academic Year 2025-26.
